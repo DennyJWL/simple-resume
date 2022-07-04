@@ -1,0 +1,263 @@
+@charset "UTF-8";
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+a, a:hover, a:visited, a:link, a:active, ul, li {
+  text-decoration: none;
+  outline: none;
+  display: block;
+}
+
+body {
+  font-family: "Noto Sans TC", "Comfortaa", "Wendy One", sans-serif;
+  line-height: 1.5;
+}
+
+.mb72 {
+  margin-bottom: 72px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding: 40px 0 20px 0;
+  border-bottom: 2px solid #000;
+}
+.header .photo_box {
+  width: 324px;
+  padding-top: 324px;
+  height: 0;
+  margin: 40px 0 40px 0;
+}
+.header .photo_box .photo {
+  background-image: url("../images/林靖惟.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 32px;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+.main h2 span {
+  font-size: 24px;
+  color: #A00404;
+  padding-left: 16px;
+}
+.main h1, .main p {
+  font-size: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.main .skill {
+  background-color: #415165;
+  color: #FFFFFF;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+.main .skill h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 32px;
+  font-weight: medium;
+  padding: 24px 0 8px 0;
+  border-bottom: 1px solid #fff;
+}
+.main .skill h3 span {
+  font-size: 24px;
+  padding-left: 16px;
+}
+.main .skill ul {
+  color: #fff;
+  margin-top: 40px;
+  padding-left: 484px;
+}
+.main .skill ul li {
+  font-weight: 300;
+  font-size: 24px;
+  padding-left: 16px;
+  border-left: 1px solid #fff;
+  padding-bottom: 20px;
+}
+.main .skill ul li:nth-last-child(1) {
+  padding-bottom: 0;
+}
+.main .workExperience h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 12px;
+  padding-bottom: 32px;
+}
+.main .card {
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+  margin-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 72px;
+}
+.main .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 32px;
+}
+.main .card a {
+  display: inline-block;
+  color: #000;
+}
+.main .card a:hover {
+  color: blue;
+}
+.main .card .github {
+  margin-left: 24px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #415165;
+  color: #FFFFFF;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  margin-top: 72px;
+  text-align: center;
+}
+.footer h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 32px;
+  font-weight: medium;
+  padding: 24px 0 8px 0;
+  border-bottom: 1px solid #fff;
+}
+.footer h3 span {
+  font-size: 24px;
+  padding-left: 16px;
+}
+.footer ul {
+  color: #fff;
+  margin-top: 40px;
+}
+.footer ul li {
+  font-weight: 300;
+  font-size: 24px;
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+.footer ul li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.footer ul li a {
+  color: #fff;
+}
+.footer ul li a:hover {
+  color: blue;
+}
+.footer .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .icon .icon_box {
+  width: 48px;
+  padding-top: 48px;
+  height: 0;
+  margin-right: 24px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.footer .icon .icon_box:nth-last-child(1) {
+  margin-right: 0;
+}
+.footer .icon .icon_box:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+.footer .icon .icon_box .icon-fb {
+  background-image: url("../images/facebook.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.footer .icon .icon_box .icon-ig {
+  background-image: url("../images/instagram-alt.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.footer .icon .icon_box .icon-line {
+  background-image: url("../images/line.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
